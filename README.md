@@ -1,6 +1,5 @@
 
-# databasequery 
-## Query data from mysql/ postgres/ sqlite3
+# MySQL DML
 This activity provides your flogo application the ability to fire a select, update and insert query to SQL database.
 
 # Third Party Drivers Used
