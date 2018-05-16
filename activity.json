@@ -1,0 +1,36 @@
+{
+  "name": "SQL Database_Query",
+  "type": "flogo:activity",
+  "ref": "github.com/sushantkumbhar/flogoMysqlInsertUpdate",
+  "version": "0.0.1",
+  "title": "MYSQLDML",
+  "description": "Select,Update,Insert and delete queries to MYSQL Databas",
+  "author": "Sushant Kumbhar <sushant.a.kumbhar@gmail.com>",
+  "homepage": "https://github.com/sushantkumbhar/flogoMysqlInsertUpdate",
+  "inputs":[
+    {
+      "name": "driverName",
+      "type": "string",
+      "required": true,
+      "allowed": [
+        "mysql"
+      ]
+    },
+    {
+      "name": "datasourceName",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "query",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
