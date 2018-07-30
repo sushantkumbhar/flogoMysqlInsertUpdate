@@ -52,7 +52,7 @@ func TestEval(t *testing.T) {
 	fmt.Println("===============================")
 	fmt.Println("")
 	tc.SetInput("driverName", "mysql")
-	tc.SetInput("datasourceName", "sushant:kumbhar.6242@tcp(cvadb.cpvs8qpluubi.us-east-1.rds.amazonaws.com:3306)/CVAMysqlDB")
+	tc.SetInput("datasourceName", "user:password@DBURL")
 	//tc.SetInput("query", "select * from user_details where mobile='4' ")
 	//tc.SetInput("query", "insert into user_details (mobile) values (8) ")
 	tc.SetInput("query", "update user_details set mobile='55', password='test' where mobile='5' ")
