@@ -1,7 +1,7 @@
 {
   "name": "SQL Database_Query",
   "type": "flogo:activity",
-  "ref": "github.com/sushantkumbhar/flogoMysqlInsertUpdate",
+  "ref": "https://github.com/Ganitagya/flogo-contrib.git",
   "version": "0.0.1",
   "title": "MYSQLDML",
   "description": "Select,Update,Insert and delete queries to MYSQL Databas",
